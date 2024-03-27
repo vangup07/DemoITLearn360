@@ -35,13 +35,5 @@ public class BrowserFactory {
 		return driver;
 	}
 
-	public static WebDriver startAppliaction(WebDriver driver, String browser, Object stagingUrl) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public static void quitBrowser(WebDriver driver) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 }

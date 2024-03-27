@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vgqa360.testcases.LoginTest">
+      <class name="com.vgqa360.testcases.PaymentTest">
         <methods>
-          <include name="verifyLogin"/>
           <include name="setUp"/>
+          <include name="testcourses"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.vgqa360.testcases.LoginTest -->
+      </class> <!-- com.vgqa360.testcases.PaymentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -32,18 +32,9 @@ public class ConfigDataProvider {
 		 return pro.getProperty("url");
 	 }
 
-
-	public Object getStagingUrl() {
-		// TODO Auto-generated method stub
-		return null;
+	
+	
+	
+	
+	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}

@@ -19,12 +19,13 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp()
 	{
-		driver=BrowserFactory.startAppliaction(driver,config.getBrowser(),config.getStagingUrl());
+		driver=BrowserFactory.startAppliaction(driver,config.getBrowser(),config.getUrl());
 	}
 	
  @AfterClass
 	public void tearDown()
 	{
-		BrowserFactory.quitBrowser(driver);
+		driver.close();
+		
 	}
 }

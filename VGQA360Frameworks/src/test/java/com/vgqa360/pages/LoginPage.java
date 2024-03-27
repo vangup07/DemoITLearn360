@@ -29,8 +29,13 @@ public class LoginPage {
 	{
 		loginclick.click();
 		uname.sendKeys(username);
-		pass.sendKeys(password);;
-		loginButton.click();
+		pass.sendKeys(password);
+//		loginButton.click();
+	}
+	
+	public void logout()
+	{
+		
 	}
 	
 
